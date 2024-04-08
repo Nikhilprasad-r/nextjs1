@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import Dropdown from "./Dropdown";
 const Navbar = () => {
   const pathname = usePathname();
   return (
@@ -67,6 +68,9 @@ const Navbar = () => {
                 <span>
                   <IoIosArrowUp className="rotate-180 transition-all group-hover:rotate-0" />
                 </span>
+                <div className="absolute right-0 top-10 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
+                  <Dropdown />
+                </div>
               </div>
             </li>
             <li>
@@ -75,6 +79,9 @@ const Navbar = () => {
                 <span>
                   <IoIosArrowUp className="rotate-180 transition-all group-hover:rotate-0" />
                 </span>
+                <div className="absolute right-0 top-10 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
+                  <Dropdown />
+                </div>
               </div>
             </li>
             <li>
@@ -86,12 +93,18 @@ const Navbar = () => {
               <div className="flex group items-center gap-2 py-2 px-3 text-neutral-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 relative">
                 <span> Resources</span>
                 <IoIosArrowUp className="rotate-180 transition-all group-hover:rotate-0" />
+                <div className="absolute right-0 top-10 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
+                  <Dropdown />
+                </div>
               </div>
             </li>
             <li>
               <div className="flex group items-center gap-2 py-2 px-3 text-neutral-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 relative">
                 <span>Company</span>
                 <IoIosArrowUp className="rotate-180 transition-all group-hover:rotate-0" />
+                <div className="absolute right-0 top-10 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
+                  <Dropdown />
+                </div>
               </div>
             </li>
           </ul>
