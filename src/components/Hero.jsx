@@ -4,19 +4,19 @@ const Hero = () => {
   return (
     <div className="text-center grid py-5">
       <div className="w-5/6 justify-self-center">
-        <h2 className="text-blue-900 text-sm mt-10">
+        <h2 className="text-[#084df2] text-sm font-medium mt-10">
           Video generation Platform
         </h2>
-        <h1 className="my-5 text-4xl font-[archia]">
+        <h1 className="my-5 text-[2.5rem] leading-[3rem] font-medium font-[archia]">
           Turn Text to videos in minutes
         </h1>
-        <div className="place-content-center text-xl flex">
+        <div className="place-content-center text-lg font-normal flex">
           <p className="max-w-xl justify-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
             obcaecati Lorem adipisicing elit. Reiciendis, obcaecati Lorem
           </p>
         </div>
-        <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-4 py-3 text-center mt-10">
+        <button className="text-white bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-4 py-3 text-center mt-10">
           <div className="flex md:order-2 items-center space-x-6 md:space-x-0 gap-2 ">
             Create a free AI video <BsArrowRight />
           </div>
