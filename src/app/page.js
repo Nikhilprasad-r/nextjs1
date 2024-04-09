@@ -9,13 +9,13 @@ export default function Home() {
     <main className="pt-20">
       <Navbar />
       <Hero />
-      <Usecases />
+      {/* <Usecases />
 
       <div className="flex justify-around content-between">
         <VerticalCard />
         <VerticalCard />
         <VerticalCard />
-      </div>
+      </div> */}
       <Footer />
     </main>
   );

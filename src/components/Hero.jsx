@@ -33,7 +33,7 @@ const Hero = () => {
         </video>
       </div>
       <div>
-        <p className="mt-10 mb-10">
+        <p className="mt-10 mb-10 text-l">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
           consectetur!
         </p>

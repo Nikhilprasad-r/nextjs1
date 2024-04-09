@@ -7,7 +7,7 @@ import Dropdown from "./Dropdown";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className="bg-whitefixed w-full z-20 text-xl top-0 start-0 border-b border-gray-200 fixed">
+    <nav className="bg-white w-full z-20 text-xl top-0 start-0 border-b border-gray-200 fixed">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div
           href="/"
@@ -21,7 +21,7 @@ const Navbar = () => {
             height={100}
           />
         </div>
-        <div className="flex md:order-2 items-center space-x-6 md:space-x-0 rtl:space-x-reverse">
+        <div className="flex md:order-2 sm:text-m items-center space-x-6 md:space-x-0 rtl:space-x-reverse">
           <div class="text-xl  text-neutral-400 hover:text-blue-600 mr-6">
             Log in
           </div>
