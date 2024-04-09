@@ -20,14 +20,11 @@ const Hero = () => {
         </button>
         <p className="text-neutral-300 text-xs mt-2">No credit card Required</p>
       </div>
-      <iframe
-        src="https://www.youtube.com/watch?v=gfU1iZnjRZM"
-        frameborder="0"
-        allowfullscreen
-        width={"100%"}
-        height={"100%"}
-        className="rounded-lg"
-      />
+      <div className="rounded-xl">
+        <video width="100%" height="100%" controls preload="none">
+          <source src="./sample.mp4" type="video/mp4" />
+        </video>
+      </div>
       <div>
         <p className="mt-10 mb-10">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
