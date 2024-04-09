@@ -12,7 +12,7 @@ const VerticalCard = () => {
         <span class="ms-1 text-xl font-normal text-gray-500 ">%</span>
       </div>
       <p className="space-y-5 my-7">
-        Xerox's global training team reduced video and voiceover costs by over
+        Xerox global training team reduced video and voiceover costs by over
         50%, compared to hiring voiceover artists in multiple languages.
       </p>
 
