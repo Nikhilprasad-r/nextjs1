@@ -11,7 +11,7 @@ const Usecases = () => {
       <h1 className="text-3xl">
         For teams who create training videos at scale
       </h1>
-      <div>
+      <div className="grid ">
         <div className="sm:hidden ">
           <label for="tabs" className="sr-only">
             Select your country
@@ -26,7 +26,7 @@ const Usecases = () => {
             <option>Invoioce</option>
           </select>
         </div>
-        <ul className="hidden text-sm font-medium text-center text-gray-500 rounded-lg shadow sm:flex mt-10">
+        <ul className="hidden text-sm justify-self-center w-5/6 font-medium text-center text-gray-500 rounded-lg shadow sm:flex mt-10">
           <li className="w-full flex focus-within:z-10">
             <a
               href="#"

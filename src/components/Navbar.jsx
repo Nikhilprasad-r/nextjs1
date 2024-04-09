@@ -7,7 +7,7 @@ import Dropdown from "./Dropdown";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className="bg-whitefixed w-full z-20 top-0 start-0 border-b border-gray-200 fixed">
+    <nav className="bg-whitefixed w-full z-20 text-xl top-0 start-0 border-b border-gray-200 fixed">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div
           href="/"
@@ -22,12 +22,12 @@ const Navbar = () => {
           />
         </div>
         <div className="flex md:order-2 items-center space-x-6 md:space-x-0 rtl:space-x-reverse">
-          <div class="text-sm  text-neutral-400 hover:text-blue-600 mr-6">
+          <div class="text-xl  text-neutral-400 hover:text-blue-600 mr-6">
             Log in
           </div>
           <button
             type="button"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
+            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
           >
             Create Account
           </button>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
