@@ -42,6 +42,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -49,6 +50,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -56,6 +58,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -63,6 +66,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -70,6 +74,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -77,6 +82,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -84,6 +90,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
         </div>
         <div className="flex space-x-16 animate-loop-scroll" aria-hidden="true">
@@ -93,6 +100,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -100,6 +108,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -107,6 +116,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -114,6 +124,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -121,6 +132,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -128,6 +140,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
           <Image
             className="max-w-none"
@@ -135,6 +148,7 @@ const Hero = () => {
             height={100}
             loading="lazy"
             src="./logo.svg"
+            alt="brand"
           />
         </div>
       </div>

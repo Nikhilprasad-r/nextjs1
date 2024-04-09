@@ -7,7 +7,7 @@ import Dropdown from "./Dropdown";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className="bg-whitefixed w-full z-20 top-0 start-0 border-b border-gray-200">
+    <nav className="bg-whitefixed w-full z-20 top-0 start-0 border-b border-gray-200 fixed">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div
           href="/"
@@ -68,7 +68,7 @@ const Navbar = () => {
                 <span>
                   <IoIosArrowUp className="rotate-180 transition-all group-hover:rotate-0" />
                 </span>
-                <div className="absolute right-0 top-10 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
+                <div className="absolute right-0 top-5 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
                   <Dropdown />
                 </div>
               </div>
@@ -79,7 +79,7 @@ const Navbar = () => {
                 <span>
                   <IoIosArrowUp className="rotate-180 transition-all group-hover:rotate-0" />
                 </span>
-                <div className="absolute right-0 top-10 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
+                <div className="absolute right-0 top-5 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
                   <Dropdown />
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Navbar = () => {
               <div className="flex group items-center gap-2 py-2 px-3 text-neutral-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 relative">
                 <span> Resources</span>
                 <IoIosArrowUp className="rotate-180 transition-all group-hover:rotate-0" />
-                <div className="absolute right-0 top-10 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
+                <div className="absolute right-0 top-5 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
                   <Dropdown />
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Navbar = () => {
               <div className="flex group items-center gap-2 py-2 px-3 text-neutral-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 relative">
                 <span>Company</span>
                 <IoIosArrowUp className="rotate-180 transition-all group-hover:rotate-0" />
-                <div className="absolute right-0 top-10 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
+                <div className="absolute right-0 top-5 hidden w-auto flex-col gap-1 rounded-lg transition-all group-hover:flex">
                   <Dropdown />
                 </div>
               </div>

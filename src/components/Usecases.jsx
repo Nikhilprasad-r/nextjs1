@@ -44,7 +44,7 @@ const Usecases = () => {
           <TfiHeadphoneAlt />
           <a
             href="#"
-            className="inline-block w-full p-4 bg-white border-r border-gray-200 hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none "
+            className="inline-block w-full p-4 bg-white border-r border-gray-200   hover:text-blue-800 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none "
           >
             Settings
           </a>
@@ -53,7 +53,7 @@ const Usecases = () => {
           <BsGrid />
           <a
             href="#"
-            className="inline-block w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+            className="inline-block w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg  hover:bg-gray-50 hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 "
           >
             Invoice
           </a>

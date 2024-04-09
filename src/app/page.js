@@ -6,7 +6,7 @@ import VerticalCard from "@/components/VerticalCard";
 
 export default function Home() {
   return (
-    <main>
+    <main className="pt-20">
       <Navbar />
       <Hero />
       <Usecases />

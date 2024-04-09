@@ -22,7 +22,7 @@ const Dropdown = () => {
                 <div className="flex-shrink-0">
                   <Image
                     className="w-8 h-8 rounded-full"
-                    src="/docs/images/people/profile-picture-1.jpg"
+                    src=""
                     alt="Neil image"
                     height={100}
                     width={100}
@@ -46,7 +46,7 @@ const Dropdown = () => {
                 <div className="flex-shrink-0">
                   <Image
                     className="w-8 h-8 rounded-full"
-                    src="/docs/images/people/profile-picture-3.jpg"
+                    src=""
                     alt="Bonnie image"
                     height={100}
                     width={100}
@@ -70,7 +70,7 @@ const Dropdown = () => {
                 <div className="flex-shrink-0">
                   <Image
                     className="w-8 h-8 rounded-full"
-                    src="/docs/images/people/profile-picture-2.jpg"
+                    src=""
                     alt="Michael image"
                     height={100}
                     width={100}
@@ -94,7 +94,7 @@ const Dropdown = () => {
                 <div className="flex-shrink-0">
                   <Image
                     className="w-8 h-8 rounded-full"
-                    src="/docs/images/people/profile-picture-4.jpg"
+                    src=""
                     alt="Lana image"
                     height={100}
                     width={100}
@@ -118,7 +118,7 @@ const Dropdown = () => {
                 <div className="flex-shrink-0">
                   <Image
                     className="w-8 h-8 rounded-full"
-                    src="/docs/images/people/profile-picture-5.jpg"
+                    src=""
                     alt="Thomas image"
                     height={100}
                     width={100}
