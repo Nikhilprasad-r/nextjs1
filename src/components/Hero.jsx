@@ -21,7 +21,15 @@ const Hero = () => {
         <p className="text-neutral-300 text-xs mt-2">No credit card Required</p>
       </div>
       <div className="rounded-xl">
-        <video width="100%" height="100%" controls preload="none">
+        <video
+          width="100%"
+          height="100%"
+          controls
+          preload="none"
+          autoPlay
+          muted
+          loop="true"
+        >
           <source src="./sample.mp4" type="video/mp4" />
         </video>
       </div>
