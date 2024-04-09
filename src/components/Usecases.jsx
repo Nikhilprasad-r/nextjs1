@@ -28,43 +28,44 @@ const Usecases = () => {
         </div>
         <ul className="hidden text-sm font-medium text-center text-gray-500 rounded-lg shadow sm:flex mt-10">
           <li className="w-full flex focus-within:z-10">
-            <TbBooks />
             <a
               href="#"
-              className="inline-block w-full p-4 bg-white border-r border-gray-200 hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none"
-              aria-current="page"
+              className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
             >
-              Profile
+              <TbBooks /> Learning & Development
             </a>
           </li>
           <li className="w-full flex focus-within:z-10">
-            <BsGraphUp />
+            <a
+              href="#"
+              className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+            >
+              <BsGraphUp /> Sales Enablement
+            </a>
           </li>
           <li className="w-full flex  focus-within:z-10">
-            <TfiHeadphoneAlt />
             <a
               href="#"
-              className="inline-block w-full p-4 bg-white border-r border-gray-200   hover:text-blue-800 hover:bg-gray-50 focus:ring-4 focus:ring-blue-300 focus:outline-none "
+              className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
             >
-              Settings
+              <TfiHeadphoneAlt /> Customer Service
             </a>
           </li>
           <li className="w-full flex focus-within:z-10">
-            <BsGrid />
             <a
               href="#"
-              className="inline-block w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg  hover:bg-gray-50 hover:text-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+              className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
             >
-              Invoice
+              <BsGrid /> Information Security
             </a>
           </li>
           <li className="w-full flex focus-within:z-10">
-            <FaRegStar />
             <a
               href="#"
-              className="inline-block w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+              className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
             >
-              Invoice
+              <FaRegStar />
+              Marketing
             </a>
           </li>
         </ul>
