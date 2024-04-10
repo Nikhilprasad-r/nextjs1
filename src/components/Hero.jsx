@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="text-center grid py-5">
       <div className="w-5/6 justify-self-center">
-        <h2 className="text-[#084df2] text-sm font-medium mt-10">
+        <h2 className="text-[#084df2] text-sm font-medium mt-10 font-[basiersquare] uppercase">
           Video generation Platform
         </h2>
         <h1 className="my-5 text-[2.5rem] leading-[3rem] font-medium font-[archia]">
@@ -43,7 +43,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="grid">
-        <div className="flex w-5/6 justify-self-center space-x-16 overflow-hidden">
+        <div className="flex w-5/6 justify-self-center space-x-16 h-8 overflow-hidden">
           <div className="flex space-x-16 animate-loop-scroll">
             <Image
               className="max-w-none"
