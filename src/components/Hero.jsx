@@ -24,7 +24,7 @@ const Hero = () => {
         </button>
         <p className="text-neutral-300 text-xs mt-2">No credit card Required</p>
       </div>
-      <div className="rounded-xl mt-10 w-5/6 justify-self-center">
+      <div className="rounded-xl mt-8  justify-self-center">
         <video
           width="100%"
           height="100%"
@@ -38,7 +38,7 @@ const Hero = () => {
         </video>
       </div>
       <div>
-        <p className="mt-10 mb-10 text-base font-normal">
+        <p className="mt-10 mb-10 text-base font-[basiersquare] font-normal">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
           consectetur!
         </p>
