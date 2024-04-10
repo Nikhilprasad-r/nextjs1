@@ -2,16 +2,17 @@ import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 const Hero = () => {
   return (
-    <div className="text-center grid py-5">
+    <div className="text-center grid">
+      <div className="h-[4.4375rem]"></div>
       <div className="w-5/6 justify-self-center">
-        <h2 className="text-[#084df2] text-sm font-medium mt-10 font-[basiersquare] uppercase">
+        <h2 className="text-[#084df2] text-sm font-medium mb-2 font-[basiersquare] uppercase">
           Video generation Platform
         </h2>
-        <h1 className="my-5 text-[2.5rem] leading-[3rem] font-medium font-[archia]">
+        <h1 className="mb-4 text-[2.5rem] leading-[3rem] font-medium font-[archia]">
           Turn Text to videos in minutes
         </h1>
         <div className="place-content-center text-lg font-normal flex">
-          <p className="max-w-xl justify-center">
+          <p className="max-w-xl justify-center font-[basiersquare]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
             obcaecati Lorem adipisicing elit. Reiciendis, obcaecati Lorem
           </p>
