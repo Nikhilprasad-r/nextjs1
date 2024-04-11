@@ -20,7 +20,34 @@ const Idea = () => {
               </div>
             </div>
             <div className="relative min-w-full">
-              <div className="relative"></div>
+              <div className="relative">
+                <div className="grid">
+                  <div className="inline group">
+                    <div className="">hello</div>
+                    <div className="hidden group-hover:flex">
+                      Lorem ipsum dolor sit amet.
+                    </div>
+                  </div>
+                  <div className="inline group">
+                    <div className="">hello</div>
+                    <div className="hidden group-hover:flex">
+                      Lorem ipsum dolor sit amet.
+                    </div>
+                  </div>
+                  <div className="inline group">
+                    <div className="">hello</div>
+                    <div className="hidden group-hover:flex">
+                      Lorem ipsum dolor sit amet.
+                    </div>
+                  </div>
+                  <div className="inline group">
+                    <div className="">hello</div>
+                    <div className="hidden group-hover:flex">
+                      Lorem ipsum dolor sit amet.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
