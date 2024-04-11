@@ -6,7 +6,6 @@ import Midcard from "./Midcard";
 const Usecases = () => {
   return (
     <div className="text-center ">
-      <hr className="my-12 h-0.5 border-t-2 dark:bg-white/10" />
       <h4 className="text-blue-700 font-bold">USE CASES</h4>
       <h1 className="text-3xl">
         For teams who create training videos at scale

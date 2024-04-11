@@ -3,8 +3,8 @@ import Image from "next/image";
 const Midcard = () => {
   return (
     <div className="justify-self-center pt-10">
-      <div className="flex font-[basiersquare]">
-        <div className="w-80">
+      <div className="grid grid-cols-2 font-[basiersquare]">
+        <div className="w-50 mr-16">
           <h3 className="font-medium text-2xl tracking-[-0.015rem]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
             quasi.
@@ -34,8 +34,9 @@ const Midcard = () => {
           </div>
           <div className="">Learn More</div>
         </div>
-        <div className="z-1 min-w-full max-w-full relative shadow-[0 -6px 20px rgba(11,18,32,1.2)] rounded-2xl backdrop-blur-[.25rem] bg-[rgba(255, 255, 255, 0.3)] border-1 border-[rgba(245, 247, 254, 0.2)] border-solid ">
-          <div className="rounded-lg border-1 border-[rgba(183, 212, 255, .13)] border-solid relative overflow-hidden">
+
+        <div className="w-50 z-1 min-w-full max-w-full relative shadow-[0 -6px 20px rgba(11,18,32,1.2)] rounded-2xl backdrop-blur-[.25rem] bg-[#ffffff4d] border-1 border-[#f5f7fe33] border-solid ">
+          <div className="rounded-lg border-1 border-[#b7d4ff21] border-solid relative overflow-hidden">
             <div className="aspect-video">
               <iframe
                 width="100%"
@@ -46,7 +47,6 @@ const Midcard = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <video></video>
           </div>
         </div>
       </div>
