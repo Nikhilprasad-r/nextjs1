@@ -1,7 +1,9 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Idea from "@/components/Idea";
 
 import Navbar from "@/components/Navbar";
+import Roi from "@/components/Roi";
 
 import Usercase from "@/components/Usercase";
 import VerticalCard from "@/components/VerticalCard";
@@ -13,6 +15,8 @@ export default function Home() {
 
       <Hero />
       <Usercase />
+      <Idea />
+      <Roi />
       {/*  
       <div className="flex justify-around content-between">
         <VerticalCard />

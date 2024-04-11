@@ -46,7 +46,7 @@ const Midcard = () => {
           </div>
         </div>
 
-        <div className="w-50 z-1 min-w-full max-w-full relative shadow-[0 -6px 20px rgba(11,18,32,1.2)] rounded-2xl backdrop-blur-[.25rem] bg-[#ffffff4d] border-1 border-[#f5f7fe33] border-solid ">
+        <div className="w-50 z-1 min-w-full max-w-full relative shadow-[0 -6px 20px rgba(11,18,32,1.2)] rounded-2xl backdrop-blur-[.25rem] bg-[#ffffff4d]  border-1 border-[#f5f7fe33] border-solid ">
           <div className="rounded-lg border-1 border-[#b7d4ff21] border-solid relative overflow-hidden">
             <div className="aspect-video">
               <iframe

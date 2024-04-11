@@ -44,50 +44,47 @@ const Usercase = () => {
               <option>Invoioce</option>
             </select>
           </div>
-          <ul className="flex gap-x-2 border-2 border-solid border-[#e9ecf6] rounded-xl flex-row overflow-hidden relative bg-white">
-            <li className="">
-              <a
-                href=""
-                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
-              >
-                <TbBooks className="justify-center items-center  w-5 h-5" />{" "}
-                <span>Learning & Development</span>
-              </a>
-            </li>
-            <li className="">
-              <a
-                href=""
-                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
-              >
-                <BsGraphUp /> Sales Enablement
-              </a>
-            </li>
-            <li className="">
-              <a
-                href=""
-                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
-              >
-                <TfiHeadphoneAlt /> Customer Service
-              </a>
-            </li>
-            <li className="">
-              <a
-                href=""
-                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
-              >
-                <BsGrid /> Information Security
-              </a>
-            </li>
-            <li className="">
-              <a
-                href=""
-                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
-              >
-                <FaRegStar />
-                Marketing
-              </a>
-            </li>
-          </ul>
+          <div className="flex gap-x-2 border-2 border-solid border-[#e9ecf6] rounded-xl flex-row overflow-hidden relative bg-white text-nowrap ">
+            <a
+              href=""
+              className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+            >
+              <TbBooks className="justify-center items-center  w-5 h-5" />{" "}
+              Learning & Development
+            </a>
+
+            <a
+              href=""
+              className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
+            >
+              <BsGraphUp className="justify-center items-center  w-5 h-5" />{" "}
+              Sales Enablement
+            </a>
+
+            <a
+              href=""
+              className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
+            >
+              <TfiHeadphoneAlt className="justify-center items-center  w-5 h-5" />{" "}
+              Customer Service
+            </a>
+
+            <a
+              href=""
+              className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
+            >
+              <BsGrid className="justify-center items-center  w-5 h-5" />{" "}
+              Information Security
+            </a>
+
+            <a
+              href=""
+              className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
+            >
+              <FaRegStar className="justify-center items-center  w-5 h-5" />
+              Marketing
+            </a>
+          </div>
         </div>
         <Midcard />
       </div>
