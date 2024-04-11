@@ -44,43 +44,44 @@ const Usercase = () => {
               <option>Invoioce</option>
             </select>
           </div>
-          <ul className="hidden text-sm justify-self-center w-5/6 font-medium text-center text-gray-500 rounded-lg shadow sm:flex mt-10">
-            <li className="w-full flex focus-within:z-10">
+          <ul className="flex gap-x-2 border-2 border-solid border-[#e9ecf6] rounded-xl flex-row overflow-hidden relative bg-white">
+            <li className="">
               <a
-                href="#"
-                className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                href=""
+                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
               >
-                <TbBooks /> Learning & Development
+                <TbBooks className="justify-center items-center  w-5 h-5" />{" "}
+                <span>Learning & Development</span>
               </a>
             </li>
-            <li className="w-full flex focus-within:z-10">
+            <li className="">
               <a
-                href="#"
-                className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                href=""
+                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
               >
                 <BsGraphUp /> Sales Enablement
               </a>
             </li>
-            <li className="w-full flex  focus-within:z-10">
+            <li className="">
               <a
-                href="#"
-                className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                href=""
+                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
               >
                 <TfiHeadphoneAlt /> Customer Service
               </a>
             </li>
-            <li className="w-full flex focus-within:z-10">
+            <li className="">
               <a
-                href="#"
-                className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                href=""
+                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
               >
                 <BsGrid /> Information Security
               </a>
             </li>
-            <li className="w-full flex focus-within:z-10">
+            <li className="">
               <a
-                href="#"
-                className="flex gap-5 w-full p-4 bg-white border-s-0 border-gray-200 rounded-e-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300 "
+                href=""
+                className="flex justify-center items-center gap-x-2 cursor-pointer bg-transparent flex-1 p-3 rounded-lg hover:text-gray-700 hover:bg-gray-50 focus:ring-4 focus:outline-none focus:ring-blue-300  "
               >
                 <FaRegStar />
                 Marketing
