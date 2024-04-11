@@ -1,5 +1,6 @@
 import Image from "next/image";
-
+import avatar from "../../public/avatar.jpg";
+import { BsArrowRight } from "react-icons/bs";
 const Midcard = () => {
   return (
     <div className="justify-self-center pt-10">
@@ -14,15 +15,15 @@ const Midcard = () => {
             corrupti corporis expedita sapiente debitis perferendis incidunt
             architecto aut veniam dolore.
           </p>
-          <div className="flex">
-            <div className="flex gap-4 items-center rounded-full align-middle">
+          <div className="flex gap-3">
+            <div className="flex gap-4 items-center  align-middle">
               <Image
-                src={""}
+                src={avatar}
                 alt=""
                 loading="lazy"
-                width={"2.6rem"}
-                height={"2.6rem"}
-                className="inline-block"
+                width={40}
+                height={40}
+                className="inline-block rounded-full"
               />
             </div>
             <div className="flex flex-col w-full">
@@ -32,7 +33,17 @@ const Midcard = () => {
               <p className="text-xs font-normal">more about author</p>
             </div>
           </div>
-          <div className="">Learn More</div>
+          <div className="flex">
+            <a
+              href=""
+              className="flex grid-cols-1 gap-x-1 gap-y-1 shadow-2xl text-black text-center leading-6 cursor-pointer bg-white rounded-md flex-nowrap justify-center items-center py-3 px-4 font-basiersquare font-medium text-base transition duration-200"
+            >
+              Learn More
+              <div className="flex justify-center items-center w-4 h-4">
+                <BsArrowRight />
+              </div>
+            </a>
+          </div>
         </div>
 
         <div className="w-50 z-1 min-w-full max-w-full relative shadow-[0 -6px 20px rgba(11,18,32,1.2)] rounded-2xl backdrop-blur-[.25rem] bg-[#ffffff4d] border-1 border-[#f5f7fe33] border-solid ">

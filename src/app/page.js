@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 
 import Navbar from "@/components/Navbar";
-import Usecases from "@/components/Usecases";
+
 import Usercase from "@/components/Usercase";
 import VerticalCard from "@/components/VerticalCard";
 
