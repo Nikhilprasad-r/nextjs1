@@ -21,12 +21,13 @@ export default function Home() {
       <Roi />
       <Demo />
       <Accordion />
+      <Footer />
       {/*  
       <div className="flex justify-around content-between">
         <VerticalCard />
         <VerticalCard />
         <VerticalCard />
-      </div> <Footer />
+      </div> 
        */}
     </main>
   );
