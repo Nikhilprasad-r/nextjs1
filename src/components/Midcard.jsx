@@ -4,18 +4,18 @@ import { BsArrowRight } from "react-icons/bs";
 const Midcard = () => {
   return (
     <div className="justify-self-center pt-10">
-      <div className="grid grid-cols-2 font-[basiersquare]">
-        <div className="w-50 mr-16">
-          <h3 className="font-medium text-2xl tracking-[-0.015rem]">
+      <div className="grid grid-cols-2  font-[basiersquare]">
+        <div className="w-50 mr-16  ">
+          <h3 className="font-medium text-2xl tracking-[-0.015rem] mb-4 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
             quasi.
           </h3>
-          <p className="text-lg font-normal text-[#2c374f]">
+          <p className="text-lg font-normal text-[#2c374f] mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
             corrupti corporis expedita sapiente debitis perferendis incidunt
             architecto aut veniam dolore.
           </p>
-          <div className="flex gap-3">
+          <div className="flex gap-3 mb-4">
             <div className="flex gap-4 items-center  align-middle">
               <Image
                 src={avatar}
@@ -36,7 +36,7 @@ const Midcard = () => {
           <div className="flex">
             <a
               href=""
-              className="flex grid-cols-1 gap-x-1 gap-y-1 shadow-2xl text-black text-center leading-6 cursor-pointer bg-white rounded-md flex-nowrap justify-center items-center py-3 px-4 font-basiersquare font-medium text-base transition duration-200"
+              className="flex grid-cols-1 gap-x-1 gap-y-1 shadow-2xl text-black text-center leading-6 cursor-pointer bg-white rounded-md flex-nowrap justify-center items-center py-3 px-4 font-basiersquare font-medium text-base transition duration-200 "
             >
               Learn More
               <div className="flex justify-center items-center w-4 h-4">

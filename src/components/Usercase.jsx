@@ -7,7 +7,7 @@ import { FaRegStar } from "react-icons/fa";
 
 const Usercase = () => {
   return (
-    <section className="w-5/6 relative justify-self-center">
+    <section className="w-5/6 relative justify-self-center pt-10 pb-24">
       <div className="block px-10">
         <div className="py-0 px-24">
           <div className="w-full max-w-6xl relative">
