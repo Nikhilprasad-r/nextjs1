@@ -1,4 +1,5 @@
 import React from "react";
+import AvatarCard from "./AvatarCard";
 
 const Demo = () => {
   return (
@@ -9,6 +10,7 @@ const Demo = () => {
           <div className="relative w-full max-w-6xl"></div>
         </div>
       </div>
+      {/* <AvatarCard /> */}
     </div>
   );
 };

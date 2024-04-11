@@ -1,3 +1,5 @@
+import Accordion from "@/components/Accordian";
+import Demo from "@/components/Demo";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Idea from "@/components/Idea";
@@ -17,6 +19,8 @@ export default function Home() {
       <Usercase />
       <Idea />
       <Roi />
+      <Demo />
+      <Accordion />
       {/*  
       <div className="flex justify-around content-between">
         <VerticalCard />
