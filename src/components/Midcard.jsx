@@ -2,47 +2,54 @@ import Image from "next/image";
 
 const Midcard = () => {
   return (
-    <div class="max-w-sm w-full lg:max-w-full lg:flex">
-      <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
-        <div class="mb-8">
-          <p class="text-sm text-gray-600 flex items-center">
-            <svg
-              class="fill-current text-gray-500 w-3 h-3 mr-2"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-            >
-              <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
-            </svg>
-            Members only
+    <div className="justify-self-center pt-10">
+      <div className="flex font-[basiersquare]">
+        <div className="w-80">
+          <h3 className="font-medium text-2xl tracking-[-0.015rem]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+            quasi.
+          </h3>
+          <p className="text-lg font-normal text-[#2c374f]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            corrupti corporis expedita sapiente debitis perferendis incidunt
+            architecto aut veniam dolore.
           </p>
-          <div class="text-gray-900 font-bold text-xl mb-2">
-            Can coffee make you a better developer?
+          <div className="flex">
+            <div className="flex gap-4 items-center rounded-full align-middle">
+              <Image
+                src={""}
+                alt=""
+                loading="lazy"
+                width={"2.6rem"}
+                height={"2.6rem"}
+                className="inline-block"
+              />
+            </div>
+            <div className="flex flex-col w-full">
+              <p className="tracking-wider uppercase text-xs font-medium ">
+                author
+              </p>
+              <p className="text-xs font-normal">more about author</p>
+            </div>
           </div>
-          <p class="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil.
-          </p>
+          <div className="">Learn More</div>
         </div>
-        <div class="flex items-center">
-          <Image
-            class="w-10 h-10 rounded-full mr-4"
-            src=""
-            alt="Avatar of Jonathan Reinink"
-          />
-          <div class="text-sm">
-            <p class="text-gray-900 leading-none">Jonathan Reinink</p>
-            <p class="text-gray-600">Aug 18</p>
+        <div className="z-1 min-w-full max-w-full relative shadow-[0 -6px 20px rgba(11,18,32,1.2)] rounded-2xl backdrop-blur-[.25rem] bg-[rgba(255, 255, 255, 0.3)] border-1 border-[rgba(245, 247, 254, 0.2)] border-solid ">
+          <div className="rounded-lg border-1 border-[rgba(183, 212, 255, .13)] border-solid relative overflow-hidden">
+            <div className="aspect-video">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <video></video>
           </div>
         </div>
       </div>
-      <Image
-        class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-        src="./logo.svg"
-        title="Woman holding a mug"
-        height={100}
-        width={100}
-      />
     </div>
   );
 };

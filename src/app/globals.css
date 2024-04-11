@@ -6,10 +6,103 @@
   font-family: "archia";
   src: url("../../public/fonts/archia-regular-webfont.ttf")
     format("truetype");
+ 
+    font-display: swap;
 }
 
 @font-face {
   font-family: "basiersquare";
   src: url("../../public/fonts/BasierSquare-Regular.woff")
     format("woff");
+}
+:root{
+
+  --grey-darkest: #2c374f;
+  --base-spacing-0: 0rem;
+  --base-spacing-xtiny: .125rem;
+  --base-spacing-tiny: .25rem;
+  --base-spacing-xsmall: 1rem;
+  --base-spacing-xxsmall: .75rem;
+  --base-spacing-xxxsmall: .5rem;
+  --fluid-spacing-small: var(--base-spacing-small);
+  --fluid-spacing-medium: var(--base-spacing-medium);
+  --fluid-spacing-large: var(--base-spacing-large);
+  --fluid-spacing-xlarge: var(--base-spacing-xlarge);
+  --fluid-spacing-xxlarge: var(--base-spacing-xxlarge);
+  --fluid-spacing-xxxlarge: var(--base-spacing-xxxlarge);
+  --fluid-spacing-huge: var(--base-spacing-huge);
+  --fluid-spacing-xhuge: var(--base-spacing-xhuge);
+  --fluid-spacing-xxhuge: var(--base-spacing-xxhuge);
+  --standard-text: #627d98;
+  --santa-blue: #102a43;
+  --white: white;
+  --project-blue-main: #084df2;
+  --project-blue-darker: #002577;
+  --v2-grey-5: #f1f3fa;
+  --grey-lightest: #f5f7fe;
+  --v2-dark-black: #0f141e;
+  --v2-grey-6: #f8f9fc;
+  --red: #c32e0e;
+  --v2-grey: #474c56;
+  --v2-grey2: #7e838f;
+  --v2-green: #00fac8;
+  --v2-blue-light: #f1f3fa;
+  --black-monochrome: #0b1220;
+  --blue: #005aeb;
+  --base-spacing-small: 1.5rem;
+  --medium-sea-green: #01a060;
+  --v2-blue-light-2: #00c5ff;
+  --blue-main: #084df2;
+  --blue-darker: #002577;
+  --white-smoke: #f7fafc;
+  --v2-green-dark: #00e0b4;
+  --helpful-grey-4: #b5bbc7;
+  --santawhite: #fff8eb;
+  --v2-white-more: #f8f9fc;
+  --grey-light: #e9ecf6;
+  --grey-medium: #d0d7e7;
+  --border-radius-medium: .75rem;
+  --border-radius-base: .5rem;
+  --project-blue-lighter: #b7d4ff;
+  --project-blue-subtle: #e8f0ff;
+  --green-darker: #117274;
+  --purple-darker: #444083;
+  --green-main: #40b7b9;
+  --purple-main: #9796ef;
+  --blue-lighter: #b0ddff;
+  --green-lighter: #c0eced;
+  --purple-lighter: #cfd2f7;
+  --blue-subtle: #e6f4ff;
+  --green-subtle: #e8f9fa;
+  --purple-subtle: #f0f1ff;
+  --pink-darker: #72436b;
+  --peach-darker: #6f2c2a;
+  --pink-main: #d88ccd;
+  --peach-main: #e27472;
+  --pink-lighter: #f2cfed;
+  --peach-lighter: #f7c9c9;
+  --pink-subtle: #faf6fd;
+  --peach-subtle: #ffedec;
+  --grey-dark: #6e778c;
+  --border-radius-full: 9999px;
+  --border-radius-large: 1rem;
+  --border-radius-small: .375rem;
+  --border-radius-xsmall: .25rem;
+  --border-box: 1px;
+  --transparent: transparent;
+  --base-spacing-medium: 2rem;
+  --green-santa: #00474b;
+  --maroon: #73200e;
+  --light-slate-grey: #829ab1;
+  --v2-white: #edf2ff;
+  --basier: "Basiersquare Webfont", sans-serif;
+  --font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --font-family-2: Archia-Medium, sans-serif;
+  --base-spacing-large: 2.5rem;
+  --base-spacing-xlarge: 3rem;
+  --base-spacing-xxlarge: 3.5rem;
+  --base-spacing-xxxlarge: 4rem;
+  --base-spacing-huge: 5rem;
+  --base-spacing-xhuge: 6rem;
+  --base-spacing-xxhuge: 8rem;
 }
