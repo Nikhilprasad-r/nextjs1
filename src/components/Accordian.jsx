@@ -13,8 +13,7 @@ const Accordion = () => {
               </h2>
 
               <p className="text-3xl font-[archia] tracking-tight font-medium">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                There are many variations of passages of Lorem
               </p>
             </div>
           </div>
@@ -51,7 +50,7 @@ const AccordionItem = ({ header, text }) => {
     setActive(!active);
   };
   return (
-    <div className="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+    <div className="mb-8 w-full rounded-lg border-[1px] border-[#d0d7e7] bg-white p-4  sm:p-8 lg:px-6 xl:px-8">
       <button
         className={`faq-btn flex w-full text-left`}
         onClick={() => handleToggle()}

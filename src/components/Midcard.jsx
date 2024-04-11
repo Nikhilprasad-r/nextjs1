@@ -36,7 +36,7 @@ const Midcard = () => {
           <div className="flex">
             <a
               href=""
-              className="flex grid-cols-1 gap-x-1 gap-y-1 shadow-2xl text-black text-center leading-6 cursor-pointer bg-white rounded-md flex-nowrap justify-center items-center py-3 px-4 font-basiersquare font-medium text-base transition duration-200 "
+              className="flex grid-cols-1 gap-x-1 gap-y-1 shadow-2xl text-black text-center leading-6 cursor-pointer bg-white rounded-md flex-nowrap justify-center items-center py-3 px-4 font-basiersquare border-[#d0d7e7] border-[1px] font-medium text-base transition duration-200 "
             >
               Learn More
               <div className="flex justify-center items-center w-4 h-4">
