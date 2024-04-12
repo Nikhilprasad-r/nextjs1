@@ -3,11 +3,11 @@ import React, { useState } from "react";
 
 const Accordion = () => {
   return (
-    <section className="w-full sm:w-5/6 relative justify-self-center pt-10 pb-24">
-      <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto">
+    <section className="w-full md:w-5/6 relative justify-self-center pt-10 pb-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto">
         <div className="flex flex-wrap">
           <div className="w-full px-4">
-            <div className="mx-auto mb-8 sm:mb-[60px] sm:max-w-[520px] sm:text-center lg:mb-20">
+            <div className="mx-auto mb-8 md:mb-[60px] md:max-w-[520px] md:text-center lg:mb-20">
               <h2 className="text-[#084df2] text-sm font-medium mb-2 font-[basiersquare] uppercase">
                 FAQ
               </h2>
@@ -49,7 +49,7 @@ const AccordionItem = ({ header, text }) => {
     setActive(!active);
   };
   return (
-    <div className="mb-8 w-5/6 mx-auto sm:w-full sm:ml-0 rounded-lg border-[1px] border-[#d0d7e7] transition-shadow bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
+    <div className="mb-8 w-5/6 mx-auto md:w-full md:ml-0 rounded-lg border-[1px] border-[#d0d7e7] transition-shadow bg-white p-4 md:p-8 lg:px-6 xl:px-8">
       <button
         className={`faq-btn flex w-full text-left`}
         onClick={(e) => handleToggle(e)}

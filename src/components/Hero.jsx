@@ -3,17 +3,17 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className="text-center px-4 sm:px-0 mx-auto">
-      <div className="h-16 sm:h-8"></div>
+    <div className="text-center px-4 md:px-0 mx-auto">
+      <div className="h-16 md:h-8"></div>
       <div className="">
-        <div className="text-left sm:text-center">
-          <h2 className="text-[#084df2] text-sm sm:text-base font-medium mb-2 font-[basiersquare] uppercase">
+        <div className="text-left md:text-center">
+          <h2 className="text-[#084df2] text-sm md:text-base font-medium mb-2 font-[basiersquare] uppercase">
             Video generation Platform
           </h2>
-          <h1 className="mb-4 text-[2.5rem] sm:text-4xl leading-[3rem] sm:leading-[4rem] font-medium font-[archia]">
+          <h1 className="mb-4 text-[2.5rem] md:text-4xl leading-[3rem] md:leading-[4rem] font-medium font-[archia]">
             Turn Text to videos in minutes
           </h1>
-          <div className="place-content-center text-lg sm:font-normal  flex">
+          <div className="place-content-center text-lg md:font-normal  flex">
             <p className="max-w-xl justify-center font-[basiersquare]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis, obcaecati Lorem adipisicing elit. Reiciendis,
@@ -28,7 +28,7 @@ const Hero = () => {
         </button>
         <p className="text-neutral-300 text-xs mt-2">No credit card Required</p>
       </div>
-      <div className="rounded-xl mt-8 sm:mt-16 justify-self-center">
+      <div className="rounded-xl mt-8 md:mt-16 justify-self-center">
         <video
           width="100%"
           height="100%"
@@ -48,8 +48,8 @@ const Hero = () => {
         </p>
       </div>
       <div className="grid">
-        <div className="flex w-full sm:w-5/6 justify-self-center space-x-16 sm:space-x-4 h-8 overflow-hidden">
-          <div className="flex space-x-16 sm:space-x-4 animate-loop-scroll">
+        <div className="flex w-full md:w-5/6 justify-self-center space-x-16 md:space-x-4 h-8 overflow-hidden">
+          <div className="flex space-x-16 md:space-x-4 animate-loop-scroll">
             {[...Array(7)].map((_, index) => (
               <Image
                 key={index}
@@ -63,7 +63,7 @@ const Hero = () => {
             ))}
           </div>
           <div
-            className="flex space-x-16 sm:space-x-4 animate-loop-scroll"
+            className="flex space-x-16 md:space-x-4 animate-loop-scroll"
             aria-hidden="true"
           >
             {[...Array(7)].map((_, index) => (

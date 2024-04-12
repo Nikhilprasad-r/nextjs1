@@ -5,8 +5,8 @@ import { BsArrowRight } from "react-icons/bs";
 const Midcard = () => {
   return (
     <div className="justify-self-center pt-10">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 font-[basiersquare]">
-        <div className="w-full sm:mr-16 mb-8 sm:mb-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-[basiersquare]">
+        <div className="w-full md:mr-16 mb-8 md:mb-0">
           <h3 className="font-medium text-2xl tracking-[-0.015rem] mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
             quasi.
