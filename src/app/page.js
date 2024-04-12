@@ -17,9 +17,9 @@ export default function Home() {
 
       <Hero />
       <Usercase />
-      <Idea />
+      {/* <Idea />
       <Roi />
-      <Demo />
+      <Demo /> */}
       <Accordion />
       <Footer />
       {/*  
