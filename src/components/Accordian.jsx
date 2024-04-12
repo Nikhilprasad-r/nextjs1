@@ -3,15 +3,14 @@ import React, { useState } from "react";
 
 const Accordion = () => {
   return (
-    <section className="w-5/6 relative justify-self-center pt-10 pb-24">
-      <div className="grid grid-cols-2 mx-auto">
-        <div className=" flex flex-wrap">
+    <section className="w-full sm:w-5/6 relative justify-self-center pt-10 pb-24">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto">
+        <div className="flex flex-wrap">
           <div className="w-full px-4">
-            <div className="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
+            <div className="mx-auto mb-8 sm:mb-[60px] max-w-[520px] text-center lg:mb-20">
               <h2 className="text-[#084df2] text-sm font-medium mb-2 font-[basiersquare] uppercase">
                 FAQ
               </h2>
-
               <p className="text-3xl font-[archia] tracking-tight font-medium">
                 There are many variations of passages of Lorem
               </p>
@@ -45,15 +44,15 @@ export default Accordion;
 const AccordionItem = ({ header, text }) => {
   const [active, setActive] = useState(false);
 
-  const handleToggle = () => {
+  const handleToggle = (event) => {
     event.preventDefault();
     setActive(!active);
   };
   return (
-    <div className="mb-8 w-full rounded-lg border-[1px] border-[#d0d7e7] bg-white p-4  sm:p-8 lg:px-6 xl:px-8">
+    <div className="mb-8 w-full rounded-lg border-[1px] border-[#d0d7e7] transition-shadow bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
       <button
         className={`faq-btn flex w-full text-left`}
-        onClick={() => handleToggle()}
+        onClick={(e) => handleToggle(e)}
       >
         <div className="w-full">
           <h3 className="mt-1 text-lg font-medium text-dark font-[basiersquare]">

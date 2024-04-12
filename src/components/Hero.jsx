@@ -1,14 +1,15 @@
 import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
+
 const Hero = () => {
   return (
     <div className="text-center grid">
-      <div className="h-[4.4375rem]"></div>
-      <div className="w-5/6 justify-self-center">
-        <h2 className="text-[#084df2] text-sm font-medium mb-2 font-[basiersquare] uppercase">
+      <div className="h-4 sm:h-8"></div>
+      <div className="w-full sm:w-5/6 justify-self-center">
+        <h2 className="text-[#084df2] text-sm sm:text-base font-medium mb-2 font-[basiersquare] uppercase">
           Video generation Platform
         </h2>
-        <h1 className="mb-4 text-[2.5rem] leading-[3rem] font-medium font-[archia]">
+        <h1 className="mb-4 text-[2.5rem] sm:text-4xl leading-[3rem] sm:leading-[4rem] font-medium font-[archia]">
           Turn Text to videos in minutes
         </h1>
         <div className="place-content-center text-lg font-normal flex">
@@ -24,14 +25,14 @@ const Hero = () => {
         </button>
         <p className="text-neutral-300 text-xs mt-2">No credit card Required</p>
       </div>
-      <div className="rounded-xl mt-8  justify-self-center">
+      <div className="rounded-xl mt-8 sm:mt-16 justify-self-center">
         <video
           width="100%"
           height="100%"
           preload="none"
           autoPlay
           muted
-          loop="true"
+          loop
           controls={false}
         >
           <source src="./sample.mp4" type="video/mp4" />
@@ -44,125 +45,35 @@ const Hero = () => {
         </p>
       </div>
       <div className="grid">
-        <div className="flex w-5/6 justify-self-center space-x-16 h-8 overflow-hidden">
-          <div className="flex space-x-16 animate-loop-scroll">
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
+        <div className="flex w-full sm:w-5/6 justify-self-center space-x-16 sm:space-x-4 h-8 overflow-hidden">
+          <div className="flex space-x-16 sm:space-x-4 animate-loop-scroll">
+            {[...Array(7)].map((_, index) => (
+              <Image
+                key={index}
+                className="max-w-none"
+                width={100}
+                height={100}
+                loading="lazy"
+                src="./logo.svg"
+                alt="brand"
+              />
+            ))}
           </div>
           <div
-            className="flex space-x-16 animate-loop-scroll"
+            className="flex space-x-16 sm:space-x-4 animate-loop-scroll"
             aria-hidden="true"
           >
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
-            <Image
-              className="max-w-none"
-              width={100}
-              height={100}
-              loading="lazy"
-              src="./logo.svg"
-              alt="brand"
-            />
+            {[...Array(7)].map((_, index) => (
+              <Image
+                key={index}
+                className="max-w-none"
+                width={100}
+                height={100}
+                loading="lazy"
+                src="./logo.svg"
+                alt="brand"
+              />
+            ))}
           </div>
         </div>
       </div>
