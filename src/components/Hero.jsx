@@ -3,20 +3,23 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className="text-center  mx-auto">
-      <div className="h-4 sm:h-8"></div>
+    <div className="text-center px-4 sm:px-0 mx-auto">
+      <div className="h-16 sm:h-8"></div>
       <div className="">
-        <h2 className="text-[#084df2] text-sm sm:text-base font-medium mb-2 font-[basiersquare] uppercase">
-          Video generation Platform
-        </h2>
-        <h1 className="mb-4 text-[2.5rem] sm:text-4xl leading-[3rem] sm:leading-[4rem] font-medium font-[archia]">
-          Turn Text to videos in minutes
-        </h1>
-        <div className="place-content-center text-lg font-normal flex">
-          <p className="max-w-xl justify-center font-[basiersquare]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            obcaecati Lorem adipisicing elit. Reiciendis, obcaecati Lorem
-          </p>
+        <div className="text-left sm:text-center">
+          <h2 className="text-[#084df2] text-sm sm:text-base font-medium mb-2 font-[basiersquare] uppercase">
+            Video generation Platform
+          </h2>
+          <h1 className="mb-4 text-[2.5rem] sm:text-4xl leading-[3rem] sm:leading-[4rem] font-medium font-[archia]">
+            Turn Text to videos in minutes
+          </h1>
+          <div className="place-content-center text-lg sm:font-normal  flex">
+            <p className="max-w-xl justify-center font-[basiersquare]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis, obcaecati Lorem adipisicing elit. Reiciendis,
+              obcaecati Lorem
+            </p>
+          </div>
         </div>
         <button className="text-white bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-4 py-3 text-center mt-10">
           <div className="flex md:order-2 items-center space-x-6 md:space-x-0 gap-2 ">

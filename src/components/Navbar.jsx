@@ -22,12 +22,12 @@ const Navbar = () => {
           />
         </div>
         <div className="flex md:order-2  items-center space-x-6 md:space-x-0 rtl:space-x-reverse">
-          <div class="text-base  text-neutral-400 hover:text-blue-600 mr-6">
+          <div class="text-base hidden sm:visible text-neutral-400 hover:text-blue-600 mr-6">
             Log in
           </div>
           <button
             type="button"
-            className="text-white text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
+            className="hidden sm:visible text-white text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
           >
             Create Account
           </button>
@@ -35,11 +35,11 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-sticky"
             aria-expanded="false"
+            onClick={() => this.classList.add("hidden")}
           >
-            <span className="sr-only">Open main menu</span>
             <svg
               className="w-5 h-5"
               aria-hidden="true"

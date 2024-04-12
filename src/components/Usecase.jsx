@@ -19,47 +19,67 @@ const Usecase = () => {
             </h2>
           </div>
         </div>
-        <div className="grid grid-cols-2 sm:hidden">
-          <select className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
-            <option>Learning & Development</option>
-            <option>Sales Enablement</option>
-            <option>Customer Service</option>
-            <option>Information Security</option>
-            <option>Marketing</option>
+        <div className="grid sm:hidden">
+          <select
+            for="tabs"
+            className="bg-gray-50 border border-blue-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
+          >
+            <option>
+              <div>
+                <TbBooks />
+                Learning & Development
+              </div>
+            </option>
+            <option>
+              <BsGraphUp />
+              Sales Enablement
+            </option>
+            <option>
+              <TfiHeadphoneAlt />
+              Customer Service
+            </option>
+            <option>
+              <BsGrid />
+              Information Security
+            </option>
+            <option>
+              <FaRegStar />
+              Marketing
+            </option>
           </select>
         </div>
-        <div className="hidden sm:flex gap-4 overflow-hidden bg-white rounded-xl">
+        <div className="hidden sm:flex gap-2 border-2 border-gray-100 border-solid overflow-hidden bg-white rounded-xl p-1">
           <a
             href=""
-            className="flex items-center gap-2 p-3 text-gray-700 hover:text-gray-900"
+            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 "
           >
             <TbBooks className="w-4 h-4 sm:w-5 sm:h-5" />
             Learning & Development
           </a>
           <a
             href=""
-            className="flex items-center gap-2 p-3 text-gray-700 hover:text-gray-900"
+            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 "
           >
             <BsGraphUp className="w-4 h-4 sm:w-5 sm:h-5" />
             Sales Enablement
           </a>
           <a
             href=""
-            className="flex items-center gap-2 p-3 text-gray-700 hover:text-gray-900"
+            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 "
           >
             <TfiHeadphoneAlt className="w-4 h-4 sm:w-5 sm:h-5" />
             Customer Service
           </a>
           <a
             href=""
-            className="flex items-center gap-2 p-3 text-gray-700 hover:text-gray-900"
+            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 "
           >
             <BsGrid className="w-4 h-4 sm:w-5 sm:h-5" />
             Information Security
           </a>
           <a
             href=""
-            className="flex items-center gap-2 p-3 text-gray-700 hover:text-gray-900"
+            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 justify-center grow shrink basis-0 "
           >
             <FaRegStar className="w-4 h-4 sm:w-5 sm:h-5" />
             Marketing
