@@ -22,12 +22,12 @@ const Navbar = () => {
           />
         </div>
         <div className="flex md:order-2  items-center space-x-6 md:space-x-0 rtl:space-x-reverse">
-          <div class="text-base hidden md:visible text-neutral-400 hover:text-blue-600 mr-6">
+          <div class="text-base hidden md:block text-neutral-400 hover:text-blue-600 mr-6">
             Log in
           </div>
           <button
             type="button"
-            className="hidden md:visible text-white text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
+            className="hidden md:block text-white text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
           >
             Create Account
           </button>

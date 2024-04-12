@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="mb-4 text-[2.5rem] md:text-4xl leading-[3rem] md:leading-[4rem] font-medium font-[archia]">
             Turn Text to videos in minutes
           </h1>
-          <div className="place-content-center text-lg md:font-normal  flex">
+          <div className="md:place-content-center text-lg md:font-normal  flex">
             <p className="max-w-xl justify-center font-[basiersquare]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis, obcaecati Lorem adipisicing elit. Reiciendis,
