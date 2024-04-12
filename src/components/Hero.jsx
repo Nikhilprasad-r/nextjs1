@@ -3,9 +3,9 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <div className="text-center grid">
+    <div className="text-center  mx-auto">
       <div className="h-4 sm:h-8"></div>
-      <div className="w-full sm:w-5/6 justify-self-center">
+      <div className="">
         <h2 className="text-[#084df2] text-sm sm:text-base font-medium mb-2 font-[basiersquare] uppercase">
           Video generation Platform
         </h2>

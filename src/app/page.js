@@ -15,21 +15,12 @@ export default function Home() {
   return (
     <main className="pt-14 grid">
       <Navbar />
-      {/* <Navbarmobile /> */}
+
       <Hero />
       <Usecase />
-      {/* <Idea />
-      <Roi />
-      <Demo /> */}
+
       <Accordion />
       <Footer />
-      {/*  
-      <div className="flex justify-around content-between">
-        <VerticalCard />
-        <VerticalCard />
-        <VerticalCard />
-      </div> 
-       */}
     </main>
   );
 }
