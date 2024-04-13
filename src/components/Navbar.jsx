@@ -44,12 +44,12 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="flex items-center p-2 w-10 h-10 justify-center text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-sticky"
             aria-expanded="false"
             onClick={(e) => handleToggle(e)}
           >
-            <IoMenu className="mt-0 mb-8 text-3xl cursor-pointer" />
+            <IoMenu className="text-6xl cursor-pointer" />
           </button>
         </div>
         <div
@@ -114,15 +114,13 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="fixed bottom-0 ">
-            <button
-              type="button"
-              className="hidden md:block text-white text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
-            >
-              Create Account
-            </button>
-            <button></button>
-          </div>
+
+          <button
+            type="button"
+            className="text-white w-5/6  bottom-0 text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
+          >
+            Create Account
+          </button>
         </div>
         <div
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
