@@ -21,7 +21,7 @@ const Usecase = () => {
         </div>
         <div className="grid md:hidden">
           <select
-            for="tabs"
+            htmlFor="tabs"
             className="bg-gray-50 border border-blue-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
           >
             <option>
