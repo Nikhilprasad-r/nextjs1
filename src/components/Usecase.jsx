@@ -1,11 +1,31 @@
+"use client";
 import Image from "next/image";
 import Midcard from "./Midcard";
 import { TbBooks } from "react-icons/tb";
 import { BsGraphUp, BsGrid } from "react-icons/bs";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { FaRegStar } from "react-icons/fa";
+import { useState } from "react";
+import { IoIosArrowDown } from "react-icons/io";
 
+import clsx from "clsx";
 const Usecase = () => {
+  const [dropdown, setDropdown] = useState(false);
+  const [option, setOption] = useState("Learning & Development");
+
+  const options = [
+    { label: "Learning & Development", icon: <TbBooks /> },
+    { label: "Sales Enablement", icon: <BsGraphUp /> },
+    { label: "Customer Service", icon: <TfiHeadphoneAlt /> },
+    { label: "Information Security", icon: <BsGrid /> },
+    { label: "Marketing", icon: <FaRegStar /> },
+  ];
+
+  const handleOptionClick = (option) => {
+    setOption(option);
+    setDropdown(false);
+  };
+
   return (
     <section className="w-full px-4 md:px-0 pt-10 pb-12">
       <div className="max-w-screen-lg mx-auto">
@@ -20,70 +40,63 @@ const Usecase = () => {
           </div>
         </div>
         <div className="grid md:hidden">
-          <select
-            htmlFor="tabs"
-            className="bg-gray-50 border border-blue-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
+          <div
+            className={clsx(
+              "bg-gray-50 flex justify-between gap-2  border border-blue-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
+            )}
+            onClick={() => setDropdown(!dropdown)}
           >
-            <option>
-              <div>
-                <TbBooks />
-                Learning & Development
+            {options.map((item) => {
+              if (item.label === option)
+                return (
+                  <div className="flex justify-start border-0 gap-x-2 bg-transparent grow shrink items-center p-3 cursor-pointer mb-0 ">
+                    {item.icon}
+                    <span className="text-sm font-medium font-[basiersquare] whitespace-nowrap">
+                      {item.label}
+                    </span>
+                  </div>
+                );
+            })}
+            <div className="flex items-center">
+              <IoIosArrowDown
+                className={clsx("transition-all text-sm content-center", {
+                  "rotate-180": dropdown,
+                })}
+              />
+            </div>
+          </div>
+          <div
+            className={clsx(
+              "relative flex-col bg-white border-[1px] gap-0 rounded-xl mr-0 overflow-scroll shadow-[0_4px_20px_rgba(11,18,32,.08)] mt-[.1875rem]",
+              dropdown ? "grid" : "hidden"
+            )}
+          >
+            {options.map((opt, index) => (
+              <div
+                key={index}
+                className="flex justify-start border-0 gap-x-2 bg-transparent grow shrink items-center p-3 cursor-pointer mb-0"
+                onClick={() => handleOptionClick(opt.label)}
+              >
+                {opt.icon}
+                <div className="text-sm font-medium font-[basiersquare] whitespace-nowrap">
+                  {opt.label}
+                </div>
               </div>
-            </option>
-            <option>
-              <BsGraphUp />
-              Sales Enablement
-            </option>
-            <option>
-              <TfiHeadphoneAlt />
-              Customer Service
-            </option>
-            <option>
-              <BsGrid />
-              Information Security
-            </option>
-            <option>
-              <FaRegStar />
-              Marketing
-            </option>
-          </select>
+            ))}
+          </div>
         </div>
         <div className="hidden md:flex gap-2 border-2 border-gray-100 border-solid overflow-hidden bg-white rounded-xl p-1">
-          <a
-            href=""
-            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 "
-          >
-            <TbBooks className="w-4 h-4 md:w-5 md:h-5" />
-            Learning & Development
-          </a>
-          <a
-            href=""
-            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 "
-          >
-            <BsGraphUp className="w-4 h-4 md:w-5 md:h-5" />
-            Sales Enablement
-          </a>
-          <a
-            href=""
-            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 "
-          >
-            <TfiHeadphoneAlt className="w-4 h-4 md:w-5 md:h-5" />
-            Customer Service
-          </a>
-          <a
-            href=""
-            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 "
-          >
-            <BsGrid className="w-4 h-4 md:w-5 md:h-5" />
-            Information Security
-          </a>
-          <a
-            href=""
-            className=" hover:text-blue-700  hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700 justify-center grow shrink basis-0 "
-          >
-            <FaRegStar className="w-4 h-4 md:w-5 md:h-5" />
-            Marketing
-          </a>
+          {options.map((opt, index) => (
+            <a
+              key={index}
+              href=""
+              className="hover:text-blue-700 hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700"
+              onClick={() => handleOptionClick(opt.label)}
+            >
+              {opt.icon}
+              {opt.label}
+            </a>
+          ))}
         </div>
         <Midcard />
       </div>

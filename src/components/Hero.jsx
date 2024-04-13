@@ -7,13 +7,13 @@ const Hero = () => {
       <div className="h-16 md:h-8"></div>
       <div className="">
         <div className="text-left md:text-center">
-          <h2 className="text-[#084df2] text-sm md:text-base font-medium mb-2 font-[basiersquare] uppercase">
+          <h2 className="text-[#084df2] text-xs md:text-sm font-medium mb-2 font-[basiersquare] uppercase">
             Video generation Platform
           </h2>
-          <h1 className="mb-4 text-[2.5rem] md:text-4xl leading-[3rem] md:leading-[4rem] font-medium font-[archia]">
+          <h1 className="mb-4 text-3xl md:text-4xl leading-[3rem] md:leading-[4rem] font-medium font-[archia]">
             Turn Text to videos in minutes
           </h1>
-          <div className="md:place-content-center text-lg md:font-normal  flex">
+          <div className="md:place-content-center text-base md:text-lg font-normal  flex">
             <p className="max-w-xl justify-center font-[basiersquare]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis, obcaecati Lorem adipisicing elit. Reiciendis,
@@ -21,7 +21,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <button className="text-white bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base px-4 py-3 text-center mt-10">
+        <button className="text-white bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base md:px-4 md:inline flex py-3 w-full md:w-auto text-center justify-center items-center mt-10">
           <div className="flex md:order-2 items-center space-x-6 md:space-x-0 gap-2 ">
             Create a free AI video <BsArrowRight />
           </div>
