@@ -46,10 +46,13 @@ const Usecase = () => {
             )}
             onClick={() => setDropdown(!dropdown)}
           >
-            {options.map((item) => {
+            {options.map((item, index) => {
               if (item.label === option)
                 return (
-                  <div className="flex justify-start border-0 gap-x-2 bg-transparent grow shrink items-center p-3 cursor-pointer mb-0 ">
+                  <div
+                    key={index}
+                    className="flex justify-start border-0 gap-x-2 bg-transparent grow shrink items-center p-3 cursor-pointer mb-0 "
+                  >
                     {item.icon}
                     <span className="text-sm font-medium font-[basiersquare] whitespace-nowrap">
                       {item.label}

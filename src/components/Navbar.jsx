@@ -73,7 +73,7 @@ const Navbar = () => {
             />
           </div>
 
-          <div className="w-full relative overflow-y-auto">
+          <div className="w-full relative overflow-y-auto px-5 gap-x-0 border-b border-[#e4e4e4] border-solid flex flex-col mx-0 my-auto flex-shrink flex-grow basis-0">
             <div className="flex group justify-between gap-2 pt-6 pb-3 px-3 text-neutral-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 relative border-b-[1px] border-[#cfd4e4]">
               <span>Features</span>
 
@@ -114,13 +114,20 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-
-          <button
-            type="button"
-            className="text-white w-5/6  bottom-0 text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
-          >
-            Create Account
-          </button>
+          <div className="flex flex-col p-6 mt-auto text-base">
+            <button
+              type="button"
+              className="text-white w-5/6  bottom-0 text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
+            >
+              Create Account
+            </button>
+            <button
+              type="button"
+              className="text-white w-5/6  bottom-0 text-sm bg-[#084df2] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-4 py-2 text-center"
+            >
+              Create Account
+            </button>
+          </div>
         </div>
         <div
           className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
