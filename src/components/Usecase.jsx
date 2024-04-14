@@ -87,12 +87,12 @@ const Usecase = () => {
             ))}
           </div>
         </div>
-        <div className="hidden md:flex gap-2 border-2 border-gray-100 border-solid overflow-hidden bg-white rounded-xl p-1">
+        <div className="hidden md:flex gap-2 border-2 justify-evenly border-gray-100 border-solid overflow-hidden bg-white rounded-xl p-1">
           {options.map((opt, index) => (
             <a
               key={index}
               href=""
-              className="hover:text-blue-700 hover:bg-blue-50 focus:ring-4 focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center gap-2 p-3 text-gray-700"
+              className="hover:text-blue-700 text-nowrap hover:bg-blue-50 focus:ring-4 w-full focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center justify-center gap-2 p-3 text-gray-700"
               onClick={() => handleOptionClick(opt.label)}
             >
               {opt.icon}
