@@ -28,13 +28,13 @@ const Usecase = () => {
 
   return (
     <section className="w-full px-4 md:px-0 pt-10 pb-12">
-      <div className="max-w-screen-lg mx-auto">
+      <div className="max-w-[70rem] mx-auto">
         <div className="mb-8">
           <div className="text-center">
-            <div className="mb-2 text-sm font-medium text-blue-500 uppercase">
+            <div className="mb-2 text-xs  md:text-sm font-medium text-[#084df2] uppercase">
               Use cases
             </div>
-            <h2 className="text-2xl md:text-4xl font-medium">
+            <h2 className="text-3xl font-[archia] md:text-4xl font-medium">
               For teams who create training videos at scale
             </h2>
           </div>
@@ -42,7 +42,7 @@ const Usecase = () => {
         <div className="grid md:hidden">
           <div
             className={clsx(
-              "bg-gray-50 flex justify-between gap-2  border border-blue-700 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
+              "bg-gray-50 flex justify-between gap-2 text-[#2c374f] border border-blue-700 font-[basiersquare]  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-full p-2.5"
             )}
             onClick={() => setDropdown(!dropdown)}
           >
@@ -51,10 +51,10 @@ const Usecase = () => {
                 return (
                   <div
                     key={index}
-                    className="flex justify-start border-0 gap-x-2 bg-transparent grow shrink items-center p-3 cursor-pointer mb-0 "
+                    className="flex justify-start border-0 gap-x-2 bg-transparent grow shrink items-center p-3 cursor-pointer mb-0 text-sm "
                   >
                     {item.icon}
-                    <span className="text-sm font-medium font-[basiersquare] whitespace-nowrap">
+                    <span className="text-sm font-medium whitespace-nowrap">
                       {item.label}
                     </span>
                   </div>

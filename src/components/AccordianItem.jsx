@@ -10,13 +10,13 @@ const AccordionItem = ({ header, text }) => {
     setActive(!active);
   };
   return (
-    <div className="mb-8 w-5/6 mx-auto md:w-full md:ml-0 rounded-lg border-[1px] border-[#d0d7e7] transition-shadow bg-white p-4 md:p-8 lg:px-6 xl:px-8">
+    <div className="mb-8 w-full md:ml-0 rounded-lg border-[1px]  border-[#d0d7e7] shadow-transparent transition-shadow bg-white p-4 md:p-8 lg:px-6 xl:px-8">
       <button
         className={`faq-btn flex w-full text-left`}
         onClick={(e) => handleToggle(e)}
       >
         <div className="w-full">
-          <h3 className="mt-1 text-lg font-medium text-dark font-[basiersquare]">
+          <h3 className="mt-1 text-base md:text-lg font-medium font-[basiersquare]">
             {header}
           </h3>
         </div>
@@ -32,11 +32,11 @@ const AccordionItem = ({ header, text }) => {
       </button>
 
       <div
-        className={`px-8 pb-6 duration-200 ease-in-out box-border ${
+        className={`px-6 md:px-8 pb-6 duration-200 ease-in-out box-border ${
           active ? "block" : "hidden"
         }`}
       >
-        <p className="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+        <p className="py-3 text-[#2c374f] text-base leading-relaxed  ">
           {text}
         </p>
       </div>

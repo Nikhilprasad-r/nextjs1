@@ -7,11 +7,11 @@ const Midcard = () => {
     <div className="justify-self-center pt-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-[basiersquare]">
         <div className="w-full md:mr-16 mb-8 md:mb-0">
-          <h3 className="font-medium text-2xl tracking-[-0.015rem] mb-4">
+          <h3 className="font-medium text-xl md:text-2xl tracking-[-0.015rem] mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
             quasi.
           </h3>
-          <p className="text-lg font-normal text-[#2c374f] mb-4">
+          <p className="md:text-lg text-base font-normal text-[#2c374f] mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
             corrupti corporis expedita sapiente debitis perferendis incidunt
             architecto aut veniam dolore.
@@ -47,16 +47,18 @@ const Midcard = () => {
           </div>
         </div>
 
-        <div className="w-full relative ">
-          <div className="rounded-lg border-[1px] border-[#b7d4ff21] border-solid relative overflow-hidden">
-            <div className="aspect-video">
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+        <div className="w-full relative z-[1] border-[1px_solid_rgba(245,247,254,0.2)] p-1  rounded-xl shadow-[0_-6px_20px_rgba(11,18,32,.12)]">
+          <div className="relative w-full ">
+            <div className="rounded-lg border-[1px] border-[#b7d4ff21] border-solid w-full relative overflow-hidden">
+              <div className="aspect-video w-full">
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
