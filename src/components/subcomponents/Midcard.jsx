@@ -1,5 +1,4 @@
 import Image from "next/image";
-import avatar from "../../public/avatar.jpg";
 import { BsArrowRight } from "react-icons/bs";
 
 const Midcard = () => {
@@ -8,18 +7,18 @@ const Midcard = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-[basiersquare]">
         <div className="w-full md:mr-16 mb-8 md:mb-0">
           <h3 className="font-medium text-xl md:text-2xl tracking-[-0.015rem] mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-            quasi.
+            Replace boring text, PowerPoints and PDFs with engaging videos your
+            team will love
           </h3>
           <p className="md:text-lg text-base font-normal text-[#2c374f] mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            corrupti corporis expedita sapiente debitis perferendis incidunt
-            architecto aut veniam dolore.
+            Usually, our colleagues dont jump in the air when they hear
+            e-learning, but the AI videos created with Synthesia have sparked
+            motivation that we havent seen before.
           </p>
           <div className="flex items-center gap-3 mb-4">
             <div className="flex-shrink-0">
               <Image
-                src={avatar}
+                src=""
                 alt=""
                 loading="lazy"
                 width={40}
@@ -29,9 +28,11 @@ const Midcard = () => {
             </div>
             <div className="flex flex-col">
               <p className="tracking-wider uppercase text-xs font-medium">
-                author
+                JESPER B.
               </p>
-              <p className="text-xs font-normal">more about author</p>
+              <p className="text-xs font-normal">
+                Learning Specialist at BESTSELLER
+              </p>
             </div>
           </div>
           <div className="flex">

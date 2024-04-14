@@ -3,7 +3,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { IoIosArrowUp } from "react-icons/io";
 import { IoClose, IoMenu } from "react-icons/io5";
-import Dropdown from "./Dropdown";
+import Dropdown from "./subcomponents/Dropdown";
 import { useState } from "react";
 import clsx from "clsx";
 const Navbar = () => {
