@@ -1,4 +1,4 @@
-import AccordionItem from "./AccordianItem";
+import AccordionItem from "./subcomponents/AccordianItem";
 
 const Accordion = () => {
   return (

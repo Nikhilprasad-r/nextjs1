@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Midcard from "./Midcard";
+import Midcard from "./subcomponents/Midcard";
 import { TbBooks } from "react-icons/tb";
 import { BsGraphUp, BsGrid } from "react-icons/bs";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
