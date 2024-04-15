@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Midcard = () => {
   return (
-    <div className="justify-self-center pt-10">
+    <div className="justify-self-center px-4 pt-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 font-[basiersquare]">
         <div className="w-full md:mr-16 mb-8 md:mb-0">
           <h3 className="font-medium text-xl md:text-2xl tracking-[-0.015rem] mb-4">
