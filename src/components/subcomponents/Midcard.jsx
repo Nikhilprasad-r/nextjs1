@@ -48,7 +48,7 @@ const Midcard = () => {
           </div>
         </div>
 
-        <div className="w-full relative z-[1] border-[1px_solid_rgba(245,247,254,0.2)] p-1  rounded-xl shadow-[0_-6px_20px_rgba(11,18,32,.12)]">
+        <div className="w-full aspect-video relative z-[1] border-[1px_solid_rgba(245,247,254,0.2)] p-1  rounded-xl shadow-[0_-6px_20px_rgba(11,18,32,.12)]">
           <div className="relative w-full ">
             <div className="rounded-lg border-[1px] border-[#b7d4ff21] border-solid w-full relative overflow-hidden">
               <div className="aspect-video w-full">

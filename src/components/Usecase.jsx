@@ -27,7 +27,7 @@ const Usecase = () => {
 
   return (
     <section className="w-full px-6 md:px-2 pt-10 pb-12">
-      <div className="max-w-[70rem] mx-auto">
+      <div className="lg:max-w-[70rem] md:max-w-[50rem] mx-auto">
         <div className="mb-8">
           <div className="text-center">
             <div className="mb-2 text-xs  md:text-sm font-medium text-[#084df2] uppercase">
@@ -87,7 +87,7 @@ const Usecase = () => {
             ))}
           </div>
         </div>
-        <div className="hidden md:flex  gap-2 border-2 justify-evenly border-gray-100 border-solid overflow-hidden bg-white rounded-xl p-1">
+        <div className="hidden md:flex gap-2 border-2 justify-evenly border-gray-100 border-solid overflow-hidden bg-white rounded-xl p-1">
           {options.map((opt, index) => (
             <a
               key={index}
