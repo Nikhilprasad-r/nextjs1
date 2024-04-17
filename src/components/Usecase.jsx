@@ -92,7 +92,7 @@ const Usecase = () => {
             <a
               key={index}
               href=""
-              className="hover:text-blue-700 text-nowrap hover:bg-blue-50 focus:ring-4 w-full focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center justify-center gap-2 p-3 text-gray-700"
+              className="hover:text-blue-700 text-nowrap hover:bg-blue-50 focus:ring-4 w-full focus:outline-none rounded-lg cursor-pointer bg-transparent flex items-center justify-center gap-2 md:p-1 md:text-sm lg: lg:p-3 text-gray-700"
               onClick={() => handleOptionClick(opt.label)}
             >
               {opt.icon}
